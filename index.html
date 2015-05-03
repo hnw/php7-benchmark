@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP7 Performance Evaluation</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Google Charts -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="nav-header">
+          <a class="navbar-brand" href="#">PHP7 Performance Evaluation</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li><a href="#">WordPress</a></li>
+        <li><a href="#">bench.php</a></li>
+      </ul>
+
+      <div id="chart"></div>
+
+      <ul>
+        <li>Zeev's blog "<a href="http://zsuraski.blogspot.jp/2014/07/benchmarking-phpng.html">Benchmarking PHPNG!</a>" (2014-07-16)</li>
+        <li>Dmitry Stogov's talk at ZendCon 2014 "<a href="https://drive.google.com/file/d/0B3UKOMH_4lgBUTdjUGxIZ3l1Ukk/view?usp=sharing">PHPNG - a New Core for PHP7</a>" (2014-10-29)</li>
+        <li><a href="http://talks.php.net/oz15">Keynote at PHP Australia Conference by Rusmas Lerdorf</a> (2015-03-12)</li>
+        <li><a href="https://docs.google.com/spreadsheets/d/1qW0avj2eRvPVxj_5V4BBNrOP1ULK7AaXTFsxcffFxT8">PHP 7.0 benchmarks</a> by PHPNG team</li>
+      </ul>
+      
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+
+  </body>
+</html>
