@@ -27,7 +27,7 @@ var raw_rows = [
     [new Date('2014-10-07'), 1.219, 13.890, 'ZendCon 2014', '<img src="img/zendcon2014.png" />'],
     [new Date('2014-11-21'), 1.201, 13.430, null, null],
     [new Date('2014-12-31'), 1.159, 12.629, null, null],
-    [new Date('2015-03-19'), 0.837, 11.756, 'Fluent 2015', '<img src="img/rasmus2015.png" />'],
+    [new Date('2015-03-19'), 0.837, 11.756, 'Fluent 2015', '<img src="img/fluent2015.png" />'],
     [new Date('2015-04-30'), 0.777, 11.081, null, null]
 ];
 
